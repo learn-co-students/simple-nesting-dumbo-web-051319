@@ -58,6 +58,10 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+     
+    programmer_hash[:dennis_ritchie][:languages][0]
+    
+#from the rspec I'm looking for "describe "#dennis_ritchies_language" do it "operates on the programmer_hash and returns the value of Dennis Ritchie's language as a string"
 end
 
 def adding_matz
